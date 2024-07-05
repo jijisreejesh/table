@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        table{
+            margin: 10px 10px;
+            width: 80%;  
+            height: 280px;
+            border: 1px solid black;
+        }
+        #head{
+            
+            font-weight: bolder;
+            font-size:50px;
+        }
+        #head th{
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+           
+        }
+        .head1{
+            border-left: 2px solid black;
+            border-top: 2px solid black;
+            border-bottom: 1px solid black;
+            border-right: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+                <tr id="head">
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                    <th>Header</th>
+                </tr>
+                <tr ><td class="head1" rowspan="4">span<br/>rows</td>
+                <td class="head1" colspan="4" style="text-align: center;">
+                    span columns
+                </td>
+                </tr>
+                <tr>
+                    <td class="head1" colspan="2">span columns</td>
+                    <td class="head1" rowspan="3">span<br/>both</td>
+                </tr>
+                <tr>
+                    <td class="head1" rowspan="2">span<br/>rows</td>
+                    <td class="head1">span columns</td>
+                </tr>
+                <tr>
+                    <td class="head1">span<br/>both</td>
+                </tr>
+                </table>
+            </thead>
+           
+        </table>
+    </div>       
+        
+</html>

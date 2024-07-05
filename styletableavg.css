@@ -1,0 +1,24 @@
+table{
+    padding-top: 20px;
+    width: 100%;
+}
+#head{
+    background-color: gray;
+
+}
+tr th{
+    width: 50px;
+    text-align: left;
+}
+ tr:nth-child(even){
+background-color: gray;
+font-weight: bold;
+
+}
+tr td{
+    width: 50px;
+    text-align: center;   
+}
+#last{
+    width: 90px;
+}
